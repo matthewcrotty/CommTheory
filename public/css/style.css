@@ -1,0 +1,39 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    margin:-1em;
+}
+
+.heading{
+    height: 10vh;
+    text-align: center;
+    background: green;
+    padding: 2em;
+}
+
+.heading a{
+    color: black;
+    position: relative;
+    text-decoration: none;
+}
+.homevideo{
+    height: 60vh;
+    background: grey;
+    text-align: center;
+}
+.vid{
+    width: calc(100vh/2);
+    height: calc(100vh/2.5);
+}
+.videodesc{
+    height: 30vh;
+    text-align: center;
+    background: green;
+}

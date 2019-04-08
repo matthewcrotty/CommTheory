@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   })
 
 const server = app.listen(port, () => {
-    const serverHost = server.address().address
+    const serverHost = localhost
     const serverPort = server.address().port
   
     console.log(`Example app listening at http://${serverHost}:${serverPort}`)
