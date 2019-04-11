@@ -11,6 +11,16 @@ body, html{
 div{
     margin:0em;
 }
+p {
+    font-size: 1.25em; 
+}
+a {
+    font-size: 1.25em;
+}
+h1{
+    font-weight: 500;
+    font-size: 2em;
+}
 .heading{
     height: 10vh;
     text-align: center;
