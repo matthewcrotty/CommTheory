@@ -1,0 +1,16 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.heading{
+    height: 10vh;
+    text-align: center;
+    background: green;
+    padding: 2em;
+}
+
+.article{
+    text-align: center;
+}
