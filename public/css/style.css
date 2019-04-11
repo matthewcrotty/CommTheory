@@ -3,37 +3,71 @@ body, html{
     width: 100%;
     margin:0;
     padding:0;
+    font-family: 'Courier New', Courier, monospace;
 }
 *{
     box-sizing: border-box;
 }
 div{
-    margin:-1em;
+    margin:0em;
 }
-
+p {
+    font-size: 1.25em; 
+}
+a {
+    font-size: 1.25em;
+}
+h1{
+    font-weight: 500;
+    font-size: 2em;
+}
 .heading{
+    position: relative;
     height: 10vh;
     text-align: center;
-    background: green;
+    background: white;
     padding: 2em;
+    border: white solid 1px;
 }
 
+/* Text in the heading*/
 .heading a{
+    margin: 0 10px;
+    position: absolute;
+    bottom: 0;
     color: black;
     position: relative;
     text-decoration: none;
 }
+
+
+/* Section containing video */
 .homevideo{
-    height: 60vh;
-    background: grey;
+    height: 40vh;
+    background: white;
     text-align: center;
 }
+
+/* h1 tags in the video section*/
+.homevideo h1{
+    color: black;
+}
+
+/* Video Size */
 .vid{
     width: calc(100vh/2);
     height: calc(100vh/2.5);
 }
+
+/* Description underneath video*/
 .videodesc{
     height: 30vh;
     text-align: center;
-    background: green;
+    background: white;
+     border: white solid 1px;
+}
+
+/* Text in the video description*/
+.videodesc p{
+    padding:10vh;
 }
