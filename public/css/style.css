@@ -3,7 +3,9 @@ body, html{
     width: 100%;
     margin:0;
     padding:0;
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: "Muli", sans-serif;
+    background: #B7ADCF;
 }
 *{
     box-sizing: border-box;
@@ -20,14 +22,14 @@ a {
 h1{
     font-weight: 500;
     font-size: 2em;
+    color: #535657;
 }
 .heading{
     position: relative;
     height: 10vh;
     text-align: center;
-    background: white;
+    background:#DEE7E7;
     padding: 2em;
-    border: white solid 1px;
 }
 
 /* Text in the heading*/
@@ -35,7 +37,7 @@ h1{
     margin: 0 10px;
     position: absolute;
     bottom: 0;
-    color: black;
+    color: #4F646F;
     position: relative;
     text-decoration: none;
 }
@@ -44,13 +46,12 @@ h1{
 /* Section containing video */
 .homevideo{
     height: 40vh;
-    background: white;
     text-align: center;
 }
 
 /* h1 tags in the video section*/
 .homevideo h1{
-    color: black;
+    
 }
 
 /* Video Size */
@@ -63,8 +64,8 @@ h1{
 .videodesc{
     height: 30vh;
     text-align: center;
-    background: white;
-    border: white solid 1px;
+    color: #4F646F;
+
 }
 
 /* Text in the video description*/
