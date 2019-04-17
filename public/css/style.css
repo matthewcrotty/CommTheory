@@ -1,6 +1,5 @@
 body, html{
-    height: 100%;
-    width: 100%;
+
     margin:0;
     padding:0;
     /*font-family: 'Courier New', Courier, monospace;*/
@@ -72,8 +71,7 @@ h1{
 
 /* Video Size */
 .vid{
-    width: calc(100vh/2);
-    height: calc(100vh/2.5);
+
 }
 
 /* Description underneath video*/
@@ -82,10 +80,9 @@ h1{
     top: 61%;
     text-align: center;
     color: #4F646F;
-
 }
 
 /* Text in the video description*/
 .videodesc p{
-    padding:10vh;
+   
 }

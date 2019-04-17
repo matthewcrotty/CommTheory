@@ -21,8 +21,18 @@ a {
 }
 h1{
     font-weight: 500;
-    font-size: 2em;
+    font-size: 3em;
     color: #535657;
+}
+h2{
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #535657;
+}
+h3{
+    font-weight: 500;
+    color: #535657;
+    font-size: 1.5em;
 }
 .heading{
     height: 10vh;
@@ -43,9 +53,16 @@ h1{
     text-align: center;
 }
 .article p{
-    text-align: center;
+    text-align: justify;
     position: relative;
     margin: auto;
     width: 50%;
     color: #4F646F;
+}
+
+
+.testpic{
+    padding: 20px;
+    width: 365px;
+    height: 276px;
 }
