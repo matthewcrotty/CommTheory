@@ -62,12 +62,8 @@ h3{
 
 /* Text in the heading*/
 .heading a{
-<<<<<<< HEAD
     margin: 0 15px;
     color: #4F646F;
-=======
-    margin: 0 10px;
->>>>>>> 6c2cb4552f988e1e4496bf9d539d9b39262ab8f3
     position: relative;
     color: #d6c8c8;
     text-decoration: none;
