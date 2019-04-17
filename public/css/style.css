@@ -1,6 +1,5 @@
 body, html{
-    height: 100%;
-    width: 100%;
+
     margin:0;
     padding:0;
     /*font-family: 'Courier New', Courier, monospace;*/
@@ -45,7 +44,6 @@ h1{
 
 /* Section containing video */
 .homevideo{
-    height: 40vh;
     text-align: center;
 }
 
@@ -56,19 +54,16 @@ h1{
 
 /* Video Size */
 .vid{
-    width: calc(100vh/2);
-    height: calc(100vh/2.5);
+
 }
 
 /* Description underneath video*/
 .videodesc{
-    height: 30vh;
     text-align: center;
     color: #4F646F;
-
 }
 
 /* Text in the video description*/
 .videodesc p{
-    padding:10vh;
+   
 }
