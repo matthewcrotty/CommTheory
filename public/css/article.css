@@ -82,6 +82,21 @@ h3{
     color: #4F646F;
 }
 
+.article section{
+    display: inline-block;
+    text-align: center;
+}
+
+.article section img{
+    left: 0%;
+}
+
+.article section h4{
+    right: 0%;
+    width: 50%;
+}
+
+
 
 .testpic{
     padding: 20px;
