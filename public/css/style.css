@@ -13,7 +13,7 @@ body, html{
 div{
     margin:0em;
 }
-p {
+p,li {
     font-size: 1.25em; 
 }
 a {
@@ -24,7 +24,15 @@ h1{
     font-size: 2em;
     color: #535657;
 }
+h2{
+    font-size: 3em; 
+}
 .handshake{
+    background-image: url(/21351819.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: #0594b4;
     position: absolute;
     top: 0%;
     width: 100%;
@@ -63,30 +71,52 @@ h1{
 /* Section containing video */
 .homevideo{
     position: relative;
-    top: 40.5%;
+    top: 30.5%;
     height: 20%;
     text-align: center;
 }
 
 /* h1 tags in the video section*/
-.homevideo h1{
-    
+.homevideo p{
+    text-align: justify;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    color: #4F646F;
 }
 
 /* Video Size */
 .vid{
-
+    margin-bottom: 20px;
 }
 
 /* Description underneath video*/
 .videodesc{
     position: relative;
-    top: 85%;
+    top: 90%;
+    width: 100%;
     text-align: center;
     color: #4F646F;
+
 }
 
 /* Text in the video description*/
 .videodesc p{
-   position: relative;
+    text-align: justify;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    color: #4F646F;
+}
+
+li{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    color: #4F646F;
+    list-style-type: none;
 }

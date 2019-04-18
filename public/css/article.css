@@ -38,6 +38,11 @@ h3{
 }
 
 .handshake{
+    background-image: url(/21351819.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: #0594b4;
     position: absolute;
     top: 0%;
     width: 100%;
@@ -72,7 +77,7 @@ h3{
 }
 
 .article{
-    top: 40.5%;
+    top: 30.5%;
     position: relative;
     text-align: center;
     align-content: center;
@@ -85,7 +90,15 @@ h3{
     width: 50%;
     color: #4F646F;
 }
-
+.article li{
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    color: #4F646F;
+}
 .article section{
     display: inline-block;
     text-align: center;
