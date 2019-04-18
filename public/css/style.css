@@ -81,12 +81,12 @@ h1{
 /* Description underneath video*/
 .videodesc{
     position: relative;
-    top: 61%;
+    top: 85%;
     text-align: center;
     color: #4F646F;
 }
 
 /* Text in the video description*/
 .videodesc p{
-   
+   position: relative;
 }
